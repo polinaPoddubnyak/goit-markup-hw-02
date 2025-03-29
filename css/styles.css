@@ -1,39 +1,12 @@
-/* === Base styles === */
+/* ====== Base Styles ====== */
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-/* === Header === */
-.header {
-  padding: 24px 156px;
-}
-
+/* ====== Logo ====== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -42,22 +15,21 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .logo-accent {
   color: #2e2f42;
 }
 
-.nav-list {
-  margin-left: 76px;
-}
-
+/* ====== Navigation ====== */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -65,6 +37,7 @@ button {
   color: #404bbf;
 }
 
+/* ====== Contacts ====== */
 .contacts {
   font-style: normal;
 }
@@ -74,6 +47,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 
 .contact-link:hover,
@@ -81,31 +55,32 @@ button {
   color: #404bbf;
 }
 
-/* === Hero Section === */
+/* ====== Hero Section ====== */
 .hero-section {
   background-color: #2e2f42;
-  color: #ffffff;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 120px 0;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .hero-button {
   background-color: #4d5ae5;
-  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
   border: none;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -113,14 +88,14 @@ button {
   background-color: #404bbf;
 }
 
-/* === Features Section === */
+/* ====== Features Section ====== */
 .features-section {
-  background-color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .features-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
@@ -140,12 +115,10 @@ button {
   color: #434455;
 }
 
-/* === Team Section === */
+/* ====== Team Section ====== */
 .team-section {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  text-align: center;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -153,8 +126,19 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -163,7 +147,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 .team-text {
@@ -173,11 +157,19 @@ button {
   color: #434455;
 }
 
-/* === Portfolio Section === */
+/* ====== Portfolio Section ====== */
 .portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  text-align: center;
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
 }
 
 .portfolio-title {
@@ -186,7 +178,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 16px 0 8px;
+  margin-top: 0;
 }
 
 .portfolio-text {
@@ -194,36 +186,18 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 0;
 }
 
-/* === Footer === */
+/* ====== Footer ====== */
 .footer {
   background-color: #2e2f42;
-  color: #ffffff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.footer .logo {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-}
-
-.footer .logo-accent {
-  color: #f4f4fd;
+  padding: 100px 0;
 }
 
 .footer-text {
-  font-size: 16px;
   line-height: 1.5;
+  color: var(--footer-text-color, #f4f4fd);
   letter-spacing: 0.02em;
-  color: #f4f4fd;
   max-width: 264px;
-  margin: 0;
 }
