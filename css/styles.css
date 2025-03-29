@@ -3,7 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
 }
 
 /* ====== Logo ====== */
@@ -15,7 +14,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .logo-accent {
@@ -58,16 +56,14 @@ body {
 /* ====== Hero Section ====== */
 .hero-section {
   background-color: #2e2f42;
-  text-align: center;
-  padding: 120px 0;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 40px;
 }
 
 .hero-button {
@@ -79,8 +75,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  border: none;
-  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -89,23 +83,12 @@ body {
 }
 
 /* ====== Features Section ====== */
-.features-section {
-  padding: 120px 0;
-}
-
-.features-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -118,23 +101,15 @@ body {
 /* ====== Team Section ====== */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
-}
-
-.team-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .team-member {
@@ -147,7 +122,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0;
 }
 
 .team-text {
@@ -158,27 +132,12 @@ body {
 }
 
 /* ====== Portfolio Section ====== */
-.portfolio-section {
-  padding: 120px 0;
-}
-
-.portfolio-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.portfolio-item {
-  background-color: #ffffff;
-}
-
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
 }
 
 .portfolio-text {
@@ -186,18 +145,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 0;
 }
 
 /* ====== Footer ====== */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+}
+
+.logo-accent1 {
+  color: #f4f4fd;
 }
 
 .footer-text {
   line-height: 1.5;
-  color: var(--footer-text-color, #f4f4fd);
+  color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
