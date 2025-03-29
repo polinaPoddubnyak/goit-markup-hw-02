@@ -1,0 +1,170 @@
+body {
+  background-color: #ffffff;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 156px;
+  padding-right: 76px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+}
+
+.logo-light {
+  color: #4d5ae5;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+  padding: 0;
+}
+
+address {
+  margin-left: auto;
+  padding-right: 156px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.banner-main {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-main > h1 {
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  letter-spacing: 0.04em;
+}
+
+.features-section {
+  padding: 120px 156px;
+}
+
+.features-section > ul {
+  margin: 0;
+  column-gap: 24px;
+}
+
+.features-section > ul > li > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.features-section > ul > li > p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 8px;
+  line-height: 24px;
+}
+
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 156px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  padding-bottom: 72px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.team > ul {
+  margin: 0;
+  column-gap: 24px;
+}
+
+.team ul > li {
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+}
+
+.team ul > li > h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.team ul > li > p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.team-cart-content {
+  padding: 32px 16px;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  padding: 120px 156px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2e2f42;
+  padding: 100px 0px;
+  color: #ffffff;
+}
+
+footer > p {
+  padding-left: 156px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
